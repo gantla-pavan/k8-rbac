@@ -20,18 +20,18 @@ metadata:
       - roboshop-trainee
       userarn: arn:aws:iam::515497299016:user/suresh
       username: suresh
-    # - groups:
-    #   - roboshop-admin
-    #   userarn: arn:aws:iam::160885265516:user/ramesh
-    #   username: ramesh
-    # - groups:
-    #   - roboshop-trainee
-    #   userarn: arn:aws:iam::160885265516:user/john
-    #   username: john
-    # - groups:
-    #   - roboshop-trainee
-    #   userarn: arn:aws:iam::160885265516:user/rahim
-    #   username: rahim
+    - groups:
+      - roboshop-admin
+      userarn: arn:aws:iam::160885265516:user/ramesh
+      username: ramesh
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::160885265516:user/john
+      username: john
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::160885265516:user/rahim
+      username: rahim
 
 kind: ConfigMap
 metadata:
