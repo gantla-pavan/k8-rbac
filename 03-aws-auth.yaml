@@ -6,14 +6,6 @@ data:
       - system:bootstrappers
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
-kind: ConfigMap
-metadata:
-  creationTimestamp: "2025-12-16T08:10:58Z"
-  name: aws-auth
-  namespace: kube-system
-  resourceVersion: "1126"
-  uid: a8c9c383-a004-44b1-a2e9-a4b88373c8cd
-
 
   mapUsers: |
     - groups:
