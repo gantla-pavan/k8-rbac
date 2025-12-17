@@ -8,15 +8,16 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
 
   mapUsers: |
-    - groups:
+  - userarn: arn:aws:iam::160885265516:user/suresh
+    username: suresh
+    groups:
       - roboshop-trainee
-      userarn: arn:aws:iam::160885265516:user/suresh
-      username: suresh
-    - groups:
+  - userarn: arn:aws:iam::160885265516:user/ramesh
+    username: ramesh
+    groups:
       - roboshop-admin
-      userarn: arn:aws:iam::160885265516:user/ramesh
-      username: ramesh
-          
+
+
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-12-11T01:49:27Z"
