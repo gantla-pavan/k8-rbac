@@ -8,12 +8,12 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
 
   mapUsers: |
-  - userarn: arn:aws:iam::515497299016:user/suresh
-    username: suresh
-    groups:
+   - userarn: arn:aws:iam::515497299016:user/suresh
+      username: suresh
+     groups:
       - roboshop-trainee
-  - userarn: arn:aws:iam::515497299016:user/ramesh
-    username: ramesh
+   - userarn: arn:aws:iam::515497299016:user/ramesh
+     username: ramesh
   groups:
       - roboshop-admin
 
